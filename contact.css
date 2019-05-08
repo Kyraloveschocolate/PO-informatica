@@ -5,6 +5,7 @@ body{
 	font-family: monospace,serif;
 }
 
+<<<<<<< HEAD
 .page {
 	margin: 40px auto;
 	border: 2px solid black;
@@ -54,6 +55,8 @@ h1{
 }
 
 
+=======
+>>>>>>> af2ea322b6d7336845a8b96c815375ff3471f212
 section#fixed-links {
     width: 130px;
     height: auto;
@@ -64,9 +67,20 @@ section#fixed-links {
     z-index: 999;
 }
 
-img#logo{
-        position:absolute;
-        top:20px;
-        left:500;
-        width:200px;
+page-content{
+  top:150px;
 }
+<<<<<<< HEAD
+=======
+
+fieldset {
+ width:80%;
+ padding-left:10%;
+ padding-right:10%;
+ border:1px solid #000000;
+        }
+
+
+
+
+>>>>>>> af2ea322b6d7336845a8b96c815375ff3471f212
