@@ -5,15 +5,6 @@ body{
 	font-family: monospace,serif;
 }
 
-h1{
-    border-style: solid;
-    top:60px
-    width left :300px;
-    width right: 300px;
-    border-color: white;
-}
-
-
 section#fixed-links {
     width: 130px;
     height: auto;
@@ -24,10 +15,8 @@ section#fixed-links {
     z-index: 999;
 }
 
-img#logo{
-        position:absolute;
-        top:20px;
-        left:500;
-        width:200px;
+page-content{
+  top:150px;
 }
+
 
