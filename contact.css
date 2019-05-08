@@ -1,8 +1,47 @@
 body{
-	background-color:  #b8d6d9;
+	background-color:  #5F9EA0;
 	padding:0;
 	margin:300;
 	font-family: monospace,serif;
+}
+
+.page {
+	margin: 40px auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: white;
+	overflow: hidden;
+	width:768px;  
+}
+
+.main-nav{
+	background-image:url("https://bnr-external-prod.imgix.net/5G7tB_NlDFa3z5buFHIdRAW78-c.jpg?auto=format%252ccompress&q=45&cs=tinysrgb&w=1280");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center 0px;
+	padding: 400px 20px 0px 20px;
+  color: black;
+}
+.main-nav a{
+	display:inline-block;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 10px solid white;
+	background-color:rgba(255, 255, 255, 0.64);
+	color:black;
+	text-decoration:none;
+	padding: 5px 10px;
+	position:relative;
+	top:10px;
+	transition: top 300ms ease;
+}
+
+.main-nav a:hover{
+	top:5px;
+  color: black;
+} 
+
+.page-content{
+	padding: 20px;
 }
 
 h1{
@@ -11,6 +50,7 @@ h1{
     width left :300px;
     width right: 300px;
     border-color: white;
+    background-color:  #A9A9A9;
 }
 
 
@@ -30,4 +70,3 @@ img#logo{
         left:500;
         width:200px;
 }
-
