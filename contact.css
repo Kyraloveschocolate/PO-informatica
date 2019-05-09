@@ -1,34 +1,34 @@
-body{
-	background-color:  #5F9EA0;
-	padding:0;
-	margin:300;
-	font-family: monospace,serif;
+body {
+  background-color: #d8e2ee;
+  padding: 0;
+  margin: 300;
+  margin-top: 160px;
+  font-family: monospace, serif;
 }
 
-
-h1{
-    border-style: solid;
-    top:60px
-    width left :300px;
-    width right: 300px;
-    border-color: white;
-    background-color:  #A9A9A9;
+h1 {
+  background-color: rgba(255, 255, 255, 0.64);
+  margin: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 5px 5px 5px 5px;
 }
-
 
 section#fixed-links {
-    width: 130px;
-    height: auto;
-    display: inline-block;
-    top: 350px;
-    right: 130;
-    position: fixed;
-    z-index: 999;
+  width: 130px;
+  height: auto;
+  display: inline-block;
+  top: 350px;
+  right: 100;
+  position: fixed;
+  z-index: 999;
 }
 
-img#logo{
-        position:absolute;
-        top:20px;
-        left:500;
-        width:200px;
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
 }
+
