@@ -20,9 +20,9 @@ section#fixed-links {
   width: 130px;
   height: auto;
   display: inline-block;
-  top: 350px;
-  right: 100;
-  position: fixed;
+  top: 200px;
+  right: -120;
+  position: relative;
   z-index: 999;
 }
 
@@ -31,4 +31,26 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: underline;
 }
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+ 
+img{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -125px;
+}
+
 

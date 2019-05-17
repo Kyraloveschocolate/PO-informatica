@@ -1,16 +1,19 @@
 <html>
+
 <head>
-  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="index.css" />
   <link href="handjes.png" rel=" icon" type="image/png">
+
   <head>
     <title>Contact</title>
   </head>
 </head>
-   
+ 
+
 <body>
   <div class="page">
-    
-  <nav class="main-nav">
+    <img src= "handjes.png" height="140" width="190"/>
+    <nav class="main-nav">
       <a href="/index.html" style="display: inline-block;
     border-radius: 5px 5px 5px 5px;
     background-color: rgba(255, 255, 255, 0.64);
@@ -20,8 +23,7 @@
     position: absolute;
     top: 50px;
     transition: top 300ms ease;
-    margin-left: 180px;"     
-    >Elektrische protheses</a>
+    margin-left: 180px;">Elektrische protheses</a>
       <a href="/index2.html" style="display: inline-block;
     border-radius: 5px 5px 5px 5px;
     background-color: rgba(255, 255, 255, 0.64);
@@ -33,51 +35,101 @@
     transition: top 300ms ease;
     margin-left: 400px;                                
     ">Over ons</a>
-  </nav>
-    
-  <div class="page-content">
-  
-  <p2>
-    <section id="fixed-links">
-		<div class="fixed-links-wrapper"; float = right>
-			<div class="fixed-link insta open">
-				<span class="close"></span>
-				<a href="https://www.instagram.com/annavandam_/" title="Volg mij op Instagram" target="_blank">
+    </nav>
+
+    <div class="page-content">
+
+      <p2>
+        <section id="fixed-links">
+          <div class="fixed-links-wrapper" ; float=r ight>
+            <div class="fixed-link insta open">
+              <span class="close"></span>
+              <a href="https://www.instagram.com/annavandam_/" title="Volg mij op Instagram" target="_blank">
 					<img src="http://dehuismuts.com/wp-content/uploads/volg_instagram.png" alt="">
 				</a>
-	</section>
-  </p2>
-      
-  <p3>
-    <strong>  Wie zijn we?</strong>
-  </p3>
-      
-  <p4>
-    <ul>
-      <li>Kyra van Giessel (Nederland): Kyra is erg sociaal gericht en heeft al veel ervaring in programmeren. Ook is ze erg geinteresseerd in protheses. </li>
-      <li>Anna van Dam (Nederland): Anna is een startende ondernemer en hoopt door te breken in de informatica branche. Ze heeft snel door wat de klant van haar verwacht en dit zie je terug in het eindresultaat.</li>
-    </ul>
-    <strong> Contact</strong>
-    <ol>
-    <li> Mail: 110274@st-maartenscollege.nl of 110289@st-maartenscollege.nl </li>
-    <li> Tel: 0687209198 of 0618934530</li>
-    <li> Social media: Zie "volg op instagram"</li>
-    </ol>
-  </p4>
-  </div>  
-  <div>
-  <fieldset>
-    <legend><strong>Stuur een mail:</strong></legend>
-    Naam: <input type="text"><br>
-    telefoon: <input type="text"><br>
-    Land: <input type="text"><br>
-    E-mail: <input type="text"><br>
-    <input type="submit">
-  </fieldset>
-  </div>
-  
-  </div>
-    
+        </section>
+      </p2>
+
+      <p3>
+        <strong>  Wie zijn we?</strong>
+      </p3>
+
+      <p4>
+        <ul>
+          <li>Kyra van Giessel (Nederland): Kyra is erg sociaal gericht en heeft al veel ervaring in programmeren. Ook is ze erg geinteresseerd in protheses. </li>
+          <li>Anna van Dam (Nederland): Anna is een startende ondernemer en hoopt door te breken in de informatica branche. Ze heeft snel door wat de klant van haar verwacht en dit zie je terug in het eindresultaat.</li>
+        </ul>
+        <strong> Contact</strong>
+        <ol>
+          <li> Mail: 110274@st-maartenscollege.nl of 110289@st-maartenscollege.nl </li>
+          <li> Tel: 0687209198 of 0618934530</li>
+          <li> Social media: Zie "volg op instagram"</li>
+        </ol>
+      </p4>
+      </div>
+      <div>
+        <fieldset>
+          <legend><strong>Opmerkingen</strong></legend>
+          <label>
+                        <input type="text" name="voornaam" placeholder="Voornaam" pattern="[A-Za-z]{1,20}" title="Voornaam" required="" autofocus="">
+                     </label>
+          <br><br>
+          <label>
+                        <input type="text" name="achternaam" placeholder="Achtermaam" pattern="[A-Za-z]{1,20}" title="Achternaam" required="">
+                     </label>
+          <br><br>
+          <label>
+                        Geslacht:<br>
+                        <input type="radio" name="geslacht" value="Man" required="required">Man<br>
+                        <input type="radio" name="geslacht" value="Vrouw" required="required">Vrouw<br>
+                        <input type="radio" name="geslacht" value="Anders" required="required">Anders<br>
+                     </label>
+          <br>
+          <label>
+                        <input type="text" name="E-mail" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="gebruik een geldig e-mailadres" required="">
+                     </label>
+          <br><br>
+          <label>
+                        <input type="text" name="Telefoonnummer" placeholder="Telefoonnummer" pattern="[0-9+-]{10,11}" title="gebruik een geldig telefoon nummer" required="">
+                     </label>
+          <br><br>
+          <label>
+                        <input list="Land" name="Land" placeholder="Land" required="">
+                        <datalist id="Land">
+                           <option value="Nederland"></option>
+                           <option value="Duitsland"></option>
+                           <option value="Frankrijk"></option>
+                           <option value="Engeland"></option>
+                           <option value="Spanje"></option>
+                           <option value="Oostenrijk"></option>
+                        </datalist>
+                     </label>
+          <br><br> Uw vraag:<br>
+          <label>
+                        <textarea name="Vraag"></textarea><br>
+                     </label>
+          <input type="reset" value="Reset"><input type="submit" value="Verzenden">
+        </fieldset>
+      </div>
+
+      </div>
+      <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgba(255, 255, 255, 0.64);
+          color: black;
+          text-align: center;
+        }
+      </style>
+
+      <div class="footer">
+        <br> |Site elektrische protheses 2019| </br>
+   <br>|Kyra van Giessel en Anna van Dam| </br>
+      </div>
+
 </body>
-    
+
 </html>
